@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/*----------Nav bar design-----------*/
+
+nav{
+    box-shadow: 1px 1px 17px 0px #00000021;
+}
+
+
+.logo-area{
+    width: 30%;
+    float: left;
+}
+
+.logo-area img{
+    padding: 20px;
+}
+
+.menu-area{
+    width: 70%;
+    overflow: hidden;
+    text-align: right;
+}
+
+.menu-area ul{
+    list-style: none;
+    margin: 0px;
+}
+
+.menu-area ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu-area ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #3B506C;
+    transition-duration: 1s;
+    
+}
+
+.menu-area ul li a:hover,.base-color {
+    
+    color: #e45613;
+    font-weight: bold;
+}
+
+/*----------End Nav bar design-----------*/
+
+
+/*---------- Start Header Text  design-----------*/
+
+
+header{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header-area .wrapper h1{
+    margin: 0;
+    font-size: 75px;
+    max-width: 1000px;
+    color: #213b5d;
+}
+
+.header-area .wrapper h1 span{}
+
+.header-area .wrapper p{
+    margin: 0;
+    font-size: 20px;
+    color: #3B506C;
+}
+
+/*---------- End Header Text  design-----------*/
+
+
+/*---------- Start Header image  design-----------*/
+
+.image-section{
+    padding: 40px 0;
+}
+
+.image-section img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*---------- End Header image  design-----------*/
+
+/*---------- Start Two Column section  design-----------*/
+
+.two-column{
+overflow: hidden;
+padding: 40px 0;
+}
+
+.border{
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+.two-box{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.two-box h1{
+    margin: 0;
+    font-size: 80px;
+}
+
+.two-box p{
+    margin: 0;
+}
+
+.two-box h2{
+    margin: 0;
+    font-size: 38px;
+}
+
+.left{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.right{
+    text-align: left;
+    padding-left: 10px;
+}
+/*---------- End Two Column section  design-----------*/
+
+/*---------- start tree Column section  design-----------*/
+
+.tree-box{
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.tree-box .box{
+    width: 32.666%;
+    float: left;
+    margin-right: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: -2px 4px 5px #0000002e;
+}
+
+.tree-box .box:last-child{
+    margin-right: 0;
+}
+.tree-box .box img{
+    width: 300px;
+    height: 300px;
+}
+
+.tree-box .box h3{
+    font-size: 22px;
+    margin: 0;
+}
+
+.tree-box .box p{
+    margin: 0;
+    color: #213b5d;
+}
+
+.red{
+    background-color: #FDEBED;
+}
+
+.blue{
+    background-color: #EBF9F4;
+}
+
+.yellow{
+    background-color: #FFF7E8;
+}
+
+/*---------- End tree Column section  design-----------*/
+
+footer{
+
+padding: 10px;
+
+text-align: center;
+
+box-shadow: -1px -1px 15px 1px #0000004d;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
